@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8550074020130043274}
   - component: {fileID: -2319232059975278270}
   - component: {fileID: 8819816807463655566}
+  - component: {fileID: -3339302457677040917}
   m_Layer: 0
   m_Name: Bala
-  m_TagString: Untagged
+  m_TagString: PlayerBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,3 +165,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &-3339302457677040917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336556898125919809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8784f34c84e4caf40b63b1fb6b4fd04d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
